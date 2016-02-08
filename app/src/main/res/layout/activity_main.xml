@@ -1,14 +1,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity"
     android:transitionGroup="true">
 
     <GridLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:padding="@dimen/activity_horizontal_margin"
         android:background="#33000000"
         android:columnCount="2">
@@ -16,7 +16,7 @@
         <TextView
             android:layout_column="0"
             android:layout_gravity="left"
-            android:text="150A"
+            android:text="Loading..."
             android:id="@+id/busName"
             android:layout_centerHorizontal="true"
             android:textColor="#FFFFFF"
@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="right"
-            android:text="~1min"
+            android:text=""
             android:id="@+id/timeToStop"
             android:layout_centerHorizontal="true"
             android:textColor="#FFFFFF"
